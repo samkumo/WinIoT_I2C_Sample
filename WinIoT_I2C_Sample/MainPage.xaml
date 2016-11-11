@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="WinIoT_I2C_Sample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WinIoT_I2C_Sample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Width="640"
+    Height="480">
+
+    <Grid Background="white">
+        <TextBlock x:Name="textBlock2" Text="{x:Bind Path=returnValue, Mode=OneWay}" HorizontalAlignment="Center" Margin="295,230,295,229" TextWrapping="Wrap" VerticalAlignment="center" Height="21" Width="50" Style="{StaticResource BaseTextBlockStyle}"/>
+        <Button x:Name="button" Width="155" Content="Read device ID" HorizontalAlignment="Center" Margin="243,261,242,0" VerticalAlignment="Top" Click="button_Click" />
+
+    </Grid>
+</Page>
