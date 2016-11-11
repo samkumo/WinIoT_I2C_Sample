@@ -10,6 +10,8 @@ using Windows.UI.Xaml;
 
 namespace WinIoT_I2C_Sample
 {
+    // Based on BME280 driver by seifordd : https://forums.adafruit.com/viewtopic.php?f=8&t=82791#p475136
+    
     public class SensorClass
     {
         // This example is for Bosch BME280 sensor but can be easily adapted for BMP280.
